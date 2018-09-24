@@ -60,7 +60,6 @@ window.onscroll = function() {
   const contentHeight = target.offsetHeight - 200;
   const y = window.pageYOffset + window.innerHeight;
   if (y >= contentHeight) {
-    console.log({ y, contentHeight });
     renderFibonacciNumbers();
   }
 };
